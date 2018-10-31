@@ -8,3 +8,9 @@ function scuberGreetingForFeet(distance) {
 function ternaryCheckCity(city) {
   return city == 'NYC' ? 'Ok, sounds good.' : 'No go.'
 }
+
+function switchOnCharmFromTip(tip) {
+  if (tip == 'generous') return 'Thank you so much.'
+  if (tip == 'not as generous') return 'Thank you.'
+  return 'Bye.'
+}
